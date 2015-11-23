@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+#container {
+
+}
+
+#line1 {
+	background-color: #cc6601;
+	height: 242px;
+}
+
+#white {
+	background-color: #ffffff;
+	height: 32px;
+}
+
+#pic1 {
+	position: absolute;
+	top: 0;
+}
+
+#line2 {
+	background-color: #9a0000;
+	height: 24px;
+	padding-left: 203px;
+}
+
+#line3 {
+	background-color: #9a0000;
+	height: 125px;
+}
+
+#line4 {
+	background-color: #9a0000;
+	height: 43px;
+}
+
+a img {
+	padding: 7px 0;
+}

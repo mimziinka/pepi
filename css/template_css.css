@@ -1,0 +1,689 @@
+body {
+	margin			: 0;
+	padding			: 0;
+	background-color	: #FFFFFF;
+/*	font			: normal 17px Helvetica, Arial, sans-serif; color: #7A9EC5; letter-spacing: 0px; margin: 0; */
+	font			: 12px/19px "Lucida Grande", "Lucida Sans Unicode", Verdana, Tahoma, Arial, sans-serif;  
+	line-height		: 160%;
+	letter-spacing		: 0px;
+	color			: #454545;
+}
+
+p {
+	margin-bottom		: 0px;
+}
+
+img {
+	border			: 0px;
+}
+
+td, tr, p, div {
+}
+
+h1, h2, h3 {
+	margin-top		: 0px;
+}
+
+h2, h3 {
+	padding			: 0 0 0 0;
+	color			: #9A0000;
+	font			: normal 18px Helvetica, Arial, sans-serif; letter-spacing: -1px;
+}
+
+ul {
+	margin-top		: 0px;
+}
+
+form {
+	padding			: 3px 0px 0px 0px;
+	margin			: 0px;
+}
+
+hr {
+	background		: #CCCCCC;
+	height			: 1px;
+	width			: 100%;
+}
+
+div {
+	border			: none;
+	margin			: 0px;
+	padding			: 0px;
+}
+
+a:link, a:visited {
+	color			: #8b3800;
+	text-decoration		: none;
+}
+
+a:hover {
+	color			: #8b3800;
+	text-decoration		: none;
+}
+
+.boxes {
+        border			: dotted;
+        border-width		: 1px;
+        border-bottom-color	: #B0C4DE;
+        border-top-color	: #B0C4DE;
+        border-left-color	: #B0C4DE;
+        border-right-color	: #B0C4DE;
+}
+
+.title {
+	font-family		: sans-serif;
+	font-size		: 24px;
+	font-weight		: bold;
+	color			: #4490B4;
+}
+
+.pathway {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 11px;
+	color			: #ffffff;
+}
+
+a.pathway:link, a.pathway:visited {
+	color			: #ffffff;
+	font-weight		: normal;
+}
+
+a.pathway:hover {
+	color			: #ffffff;
+	font-weight		: normal;
+	text-deoration		: underline;
+}
+
+/* --Default Class Settings-- */
+a.mainlevel:link, a.mainlevel:visited {
+	color			: #333333;
+	background-position	: left;
+	text-align		: left;
+	font-weight		: bold;
+}
+
+a.mainlevel:hover {
+	color			: #4490B4;
+	background-position	: left;
+	text-align		: left;
+}
+
+a.mainmenu:link, a.mainmenu:visited {
+	color			: #333333;
+	font-weight		: bold;
+}
+
+a.mainmenu:hover, {
+	color			: #4490B4;
+	text-decoration		: underline;
+}
+
+a.sublevel:hover {
+	color			: #4490B4;
+	text-decoration		: underline;
+}
+
+a.sublevel:link, a.sublevel:visited {
+	color			: #333333;
+	font-weight		: normal;
+}
+
+.moduletable{
+
+}
+
+.columns .moduletable{
+	background		: url("/images/divide.gif") bottom center no-repeat;
+	padding			: 5px 10px 15px 10px;
+}
+
+.moduletable th {
+	margin			: 0px 0px 0px 0px;
+	font-size		: 14px;
+	font-weight		: bold;
+	color			: #333;
+	font-family		: Georgia,Serif;
+	text-align		: center;
+	background-image	: url(../images/module_title_bg.png);
+	width			: 100%;
+}
+
+.modulecontent {
+	font-size		: 16px;
+}
+
+.poll {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #666666;
+	line-height		: 14px;
+}
+
+
+.sectiontableheader {
+	color			: #9a0000;
+	font-weight		: bold;
+	font			: normal 18px Helvetica, Arial, sans-serif; letter-spacing: -1px;
+	background-color	: #f9f3f3;
+	/*border			: 1px solid #9a0000;*/
+}
+
+.sectiontableheader  a:link,
+.sectiontableheader  a:visited,
+.sectiontableheader  a:hover {
+	color			: #8b3800;
+	text-decoration		: dotted;
+}
+
+.sectiontableentry1 {
+	background-color	: #f9f3f3;
+}
+
+.sectiontableentry2 {
+	background-color	: #f8ebeb;
+}
+
+
+.small {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #3366C0;
+	text-decoration		: none;
+	font-weight		: medium;
+}
+
+.smalldark {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #000000;
+	text-decoration		: none;
+	font-weight		: normal;
+}
+
+.contentpane {
+	background-color	: #f9f3f3;
+}
+
+.contentpaneopen {
+	background-color	: #f9f3f3;
+}
+
+.leftcolumn .contentpaneopen {
+	background-color	: #ede1e1;
+}
+
+.contentheading, .componentheading {
+	padding			: 0 0 0 0;
+	margin			: 0 0 0 0;
+	color			: #9A0000;
+	font			: normal 18px Helvetica, Arial, sans-serif;
+	letter-spacing		: -1
+	height			: ;
+	text-align		: left;
+	width			: 100%;
+}
+
+.createdate {
+	margin-top		: ;
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #999999;
+	text-align		: left;
+}
+
+.button {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-style		: normal;
+	font-size		: 10px;
+	font-weight		: bold;
+	background-color	: #f9f3f3;
+	color			: #000000;
+	border			: 1px solid #EFD1D1;
+}
+
+.inputbox {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #666666;
+	background-color	: #f9f3f3;
+	border			: 1px solid #cc6600;
+}
+
+.inputbox:focus {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	color			: #222222;
+	background-color	: #ede1e1;
+	border			: 1px solid #aa4400;
+}
+
+/* For content item titles that are hyperlink instead of Read On */
+a.contentpagetitle:link, a.contentpagetitle:visited {
+	font-family		: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 13px;
+	font-weight		: bold;
+ 	color			: #000000;
+	text-align		:left;
+}
+
+a.contentpagetitle:hover {
+	font-family		: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 13px;
+	font-weight		: bold;
+	text-align		:left;
+	color			: #4490B4;
+	text-decoration		: underline;
+	font-weight		: bold;
+}
+
+a.category:link, a.category:visited {
+	color			: #333333;
+	font-weight		: bold;
+}
+
+a.category:hover {
+	color			: #4490B4;
+}
+
+/* Styles for dhtml tabbed-pages */
+.ontab {
+	background-color	: #ffae00;
+	border-left		: outset 2px #ff9900;
+	border-right		: outset 2px #808080;
+	border-top		: outset 2px #ff9900;
+	border-bottom		: solid 1px #d5d5d5;
+	text-align		: center;
+	cursor			: hand;
+	font-weight		: bold;
+	color			: #FFFFFF;
+}
+.offtab {
+	background-color	: #e5e5e5;
+	border-left		: outset 2px #E0E0E0;
+	border-right		: outset 2px #E0E0E0;
+	border-top		: outset 2px #E0E0E0;
+	border-bottom		: solid 1px #d5d5d5;
+	text-align		: center;
+	cursor			: hand;
+	font-weight		: normal;
+}
+
+.tabpadding {
+
+}
+
+.tabheading {
+	background-color	: #ffae00;
+	text-align		: left;
+}
+
+.pagetext {
+	visibility		: hidden;
+	display			: none;
+	position		: relative;
+	top			: 0;
+}
+
+/* for modifying {moscode} output.  Don't set the colour! */
+.moscode {
+	background-color	: #f0f0f0;
+}
+
+/* Text passed with mosmsg url parameter */
+.message {
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-weight		: bold;
+	font-size		: 10pt;
+	color			: #9a0000;
+	text-align		: center;
+}
+
+
+
+#line1 {
+	background-color	: #9a0000;
+	height			: 96px;
+	border-bottom		: solid 1px #cc6601;
+}
+	
+#gray {
+	height			: 16px;
+	background-color	: #333333;
+	border-bottom		: solid 1px #cc6601;
+}
+
+#pic1 {
+	position		: absolute;
+	top			: 0px;
+	background		: #ffffff url("../images/index_01.gif") no-repeat top right;
+	width			: 269px;
+	height			: 96px;
+}
+
+#line2 {
+	background-color	: #cc6601;
+	/*height		: 22px;*/
+}
+
+#orange {
+	background-color	: #333333;
+	height			: 19px;
+	padding-left		: 35px;
+}
+
+#line3 {
+	padding			: 1px 0 0 0;
+	background		: #ffffff url("../images/dashed.gif") repeat-x top;
+}
+
+#pink {
+	height			: 175px;
+	background-color	: #f9f3f3;
+}
+
+#pink_1 {
+	float			: left;
+	background		: #ffffff url("../images/index_11.jpg") no-repeat top left;
+	width			: 369px;
+	height			: 175px;
+}
+
+#pink_2 {
+	float			: left;
+	width			: 330px;
+	height			: 175px;
+	background		: #ffffff url("../images/gradient.jpg") no-repeat top right;
+}
+
+#line4 {
+	padding			: 1px 0 0 0;
+	background		: #f9f3f3 url("../images/dashed.gif") repeat-x top;
+}
+
+#wrapper1, #wrapper2 {
+	margin			: 0px;
+	padding			: 0px;
+}
+
+/* NN4 makes a mess of the backgrounds (positioning plus unintended inheritance) so exclude it. OmniWeb doesn't understand background positioning either - the left column can be achieved, but not the right one */
+#wrapper1 {
+	/*/*/
+	background-image	: url(../images/right.gif);
+	background-position	: right top;
+	background-repeat	: repeat-y;
+	/* */
+}
+
+#wrapper2 {
+	/*/*/
+	background-image	: url(../images/left.gif);
+	background-repeat	: repeat-y;
+	/* */
+	}
+
+.header	{
+	margin			: 0px;
+	padding			: 0px;
+	color			: #000000;
+	background-color	: #cccccc;
+	border			: solid 1px #000000;
+}
+/* IE5 needs shifting up - and #empty to clear its parsing palette */
+* html body .header {
+	margin-bottom		: -19px;
+	font-family		: "\"}\"";
+	font-family		: inherit;
+	margin-bottom		: 0px;
+}
+#empty{}
+
+/* -1px margin-top is so NN4 borders overlap */
+.columns {
+	margin			: 0px;
+	margin-top		: -1px;
+	padding			: 0px;
+	color			: #000000;
+	background-color	: #ffffff;
+}
+/* reset post NN4 */
+.columns {
+/*/*/
+	border			: none;
+	margin-top		: 0px;
+	background-color	: transparent;
+/* */
+}
+
+/*
+make sure that .leftcolumn's width is equal to .centercolumn's margin-left
+-11px margin-top enables columns to lign up in NN4 rather than dropping down unacceptably
+*/
+.leftcolumn {
+	float			: left;
+	left			: 0px;
+	width			: 226px;
+	margin			: 0px;
+	margin-top		: -11px;
+	padding			: 6px 0px 0px 0px;
+}
+/* reset post NN4 */
+.leftcolumn {
+/*/*/
+	margin-top		: 0px;
+/* */
+}
+
+/*
+make sure that .rightcolumn's width is equal to .centercolumn's margin-right
+*/
+.rightcolumn {
+	position		: static;
+	float			: right;
+	width			: 369px;
+	margin			: 0px;
+	padding			: 0px;
+}
+
+
+/* .centercolumn base settings
+====================================
+These values allow the three columns to butt up against each other
+You can change the margins between them either by altering these values. However, in most cases altering the padding property of the .[$column]padding selectors will be simpler and more effective.
+------------------------------------
+NN4
+------------------------------------
+	margin-left		: -25px
+	margin-right		: 0px
+	margin-top		: -1px
+If you must change these, experiment with these values extensively since the center column does not move in a direct one-to-one relationship to the value specified here. The margin-top of -1px is needed to make NN4 line up correctly.
+------------------------------------
+OmniWeb
+------------------------------------
+	margin-left		: 0px;
+	margin-right		: 0px;
+------------------------------------
+Other browsers
+------------------------------------
+	margin-left		: width of .leftcolumn
+	margin-left		: final width of .rightcolumn
+margin-right is set to the value of the overriding values for .rightcolumn's width.
+*/
+.centercolumn {
+	margin			: 0px;
+	padding			: 0px;
+}
+/* OmniWeb value - others in external css file */
+
+/* no they're not - they're here for ease of viewing for the moment */
+/* NN4 values */
+.centercolumn {
+	margin-right		: 0px;
+	margin-left		: -25px;
+}
+/* Other browsers */
+/*/*/
+.centercolumn {
+	margin-right		: 369px;
+	margin-left		: 226px;
+}
+/* */
+
+/* OmniWeb (exclude from IE5 mac) */
+/*\*/
+.fake.centercolumn {
+	margin-right		: 0px;
+	margin-left		: 0px;
+}
+/* reset IE*/
+* html body .centercolumn {
+	margin-right		: 369px;
+	margin-left		: 226px;
+}
+
+
+/* -7px margin-top enables footer/middles to lign up in NN4 rather than dropping down unacceptably */
+.footer, .middle {
+	clear			: both;
+	margin			: 0px;
+	margin-top		: -7px;
+	padding			: 6px;
+	text-align		: center;
+	color			: #000000;
+	background-color	: #cccccc;
+}
+/* reset post NN4 */
+.footer, .middle {
+/*/*/
+	height			: 22px;
+	padding			: 1px 0 0 0;
+	background		: #ffffff url("../images/bottom.gif") repeat-x top;
+	margin-top		: 0px;
+/* */
+}
+
+.headerpadding, .leftpadding, .centerpadding, .rightpadding {
+	margin			: 0px;
+	padding			: 10px;
+}
+
+/****************************************************************************
+* Code by Dave Shea. http://www.mezzoblue.com
+****************************************************************************/
+.calPage {
+	color			: #BDBDBD;
+	font-size		: 10px;
+	text-shadow		: #fff 1px 1px 1px;
+	display			: block;
+	background		: url("../images/date1.gif") 0 0 no-repeat;
+	position		: relative;
+	text-align		: center;
+	text-transform		: uppercase;
+	line-height		: 1;
+	margin-top		: 0;
+	width			: 35px;
+	padding-top		: 5px;
+	padding-right		: 12px;
+	float			: left;
+/*	top			: 20px;		*/
+/*	left			: -40px;	*/
+	}
+.calPage .day {
+	display			: block;
+	font-weight		: bold;
+	font-size		: 20px;
+	text-indent		: -3px;
+	letter-spacing		: -2px;
+	color			: #ddd;
+/*	color			: #cc6600;		*/
+	text-shadow		: #bbb 2px 2px 0;
+/*	text-shadow		: #8b3800 2px 2px 0;	*/
+	background		: url("../images/date2.gif") bottom left no-repeat;
+	padding-bottom		: 5px;
+}
+/****************************************************************************/
+
+.eventItem {
+	padding-bottom		: 35px;
+}
+
+.ttfmainlevel img {
+	padding-right		: 12px;
+}
+
+#navlist {
+	padding			: 1px 0 0 0px;
+	margin			: 0 0 0 35px;
+}
+
+#navlist li {
+	display			: inline;
+	list-style-type		: none;
+}
+
+.hideLink {
+	width			: 146px;
+	position		: absolute;
+	top			: 0;
+	left			: 4px;
+	display			: block;
+	background		: none;
+	overflow		: hidden;
+	font-size		: 1px;
+	height			: 0px;
+	margin-top		: -500px;
+}
+
+.gallery {
+	width			: 99%;
+	text-align		: center;
+	padding-top		: 20px;
+}
+
+.imgWrapper {
+	position		: relative;
+	display			: block;
+	float			: right;
+	width			: 100px;
+	height			: 100px;
+	margin			: 0px 15px 5px 5px;
+	padding			: 15px 15px 15px 15px;
+	background		: url("../images/imgBg1.gif") bottom right no-repeat;
+}
+
+.page_browser {
+	font-weight		: bold;
+}
+
+.article_seperator {
+	display			: none;
+}
+
+.preview-tile-light {
+	background		: url("/images/preview-tile-light.gif") top center repeat;
+}
+
+.preview-bg-top-light {
+	background		: url("/images/preview-bg-top-light.gif") top center no-repeat;
+}
+
+.preview-bg-bottom-light {
+	background		: url("/images/preview-bg-bottom-light.gif") bottom center no-repeat;
+}
+
+.bold {
+	font-weight		: bold;
+}
+
+.album {
+  float:left;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+  display: inline;
+}
+
+.album > span {
+  display: block;
+}
+
+
