@@ -1,60 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>The official website of Peter Slavov - Links</title>
-<meta name="title" content="Links" />
-<meta name="description" content="The official website of Peter Slavov - a bass player and musician." />
-<meta name="keywords" content="peter, slavov, pepi, bass, bulgaria, berklee, music, jazz, petar" />
-<meta name="robots" content="index, follow" />
+  <title>The official website of Peter Slavov - Discography</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="title" content="Discography" />
+  <meta name="description" content="The official website of Peter Slavov - a bass player and musician." />
+  <meta name="keywords" content="peter, slavov, pepi, bass, bulgaria, berklee, music, jazz, petar" />
+  <meta name="robots" content="index, follow" />
   <link rel="shortcut icon" href="images/favicon.ico" />
-  <link href="css/template_css.css" rel="stylesheet" type="text/css" />
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div id="container">
     <div id="line1">
-      <div id="gray"><span></span></div>
-      <span id="pic1"></span>
+      <div id="gray"></div>
     </div>
     <div id="line2">
       <div id="orange">
-        <table cellpadding="0" cellspacing="0" class="moduletable">
-          <tr>
-            <td>
-              <table width="100%" border="0" cellpadding="0" cellspacing="1">
-                <tr>
-                  <td nowrap="nowrap">
-                    <a href="bio.html" class="ttfmainlevel">
-                      <img src="images/bio.png" border="0" name="Bio" alt="Bio" />
-                    </a>
-                    <a href="events.html" class="ttfmainlevel">
-                      <img src="images/events.png" border="0" name="Events" alt="Events" />
-                    </a>
-                    <a href="discography.html" class="ttfmainlevel">
-                      <img src="images/discography.png" border="0" name="Discography" alt="Discography" />
-                    </a>
-                    <a href="photos.html" class="ttfmainlevel" onclick="javascript: alert('Coming Soon'); return false;">
-                      <img src="images/photos.png" alt="Photos" />
-                    </a>
-                    <a href="#" class="ttfmainlevel" onclick="javascript: alert('Coming Soon'); return false;">
-                      <img src="images/listen.png" border="0" name="Listen" alt="Listen" />
-                    </a>
-                    <a href="links.html" class="ttfmainlevel">
-                      <img src="images/links.png" border="0" name="Links" alt="Links" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+        <ul class="menu list-inline">
+          <li><a href="bio.html">Bio</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="discography.html">Discography</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="listen.html">Listen</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
       </div>
     </div>
     <div id="line3">
-      <div id="pink">
-        <span id="pink_1">&nbsp;</span>
-        <span id="pink_2"></span>
-      </div>
+      <div id="pink"></div>
     </div>
     <div id="line4">
       <div id="wrapper1">
@@ -69,7 +44,7 @@
             </div>
             <div class="centercolumn">
               <div class="centerpadding">
-                <h3>Discography</h3>
+                <h2>Discography</h2>
                 <div class="album">
                   <img src="images/music/img022.jpg" alt="Acoustic Version 'Dum-Ba-Ta' 1999" height="120" width="120" style="border: 1px solid #888;" />
                   <span>Acoustic Version "Dum-Ba-Ta" 1999</span>
@@ -187,5 +162,7 @@
       </div>
     </div>
   </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

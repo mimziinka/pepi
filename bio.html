@@ -1,60 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>The official website of Peter Slavov - Bio</title>
-<meta name="title" content="Bio" />
-<meta name="description" content="The official website of Peter Slavov - a bass player and musician." />
-<meta name="keywords" content="peter, slavov, pepi, bass, bulgaria, berklee, music, jazz, petar" />
-<meta name="robots" content="index, follow" />
+  <title>The official website of Peter Slavov - Bio</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="title" content="Bio" />
+  <meta name="description" content="The official website of Peter Slavov - a bass player and musician." />
+  <meta name="keywords" content="peter, slavov, pepi, bass, bulgaria, berklee, music, jazz, petar" />
+  <meta name="robots" content="index, follow" />
   <link rel="shortcut icon" href="images/favicon.ico" />
-  <link href="css/template_css.css" rel="stylesheet" type="text/css" />
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div id="container">
     <div id="line1">
-      <div id="gray"><span></span></div>
-      <span id="pic1"></span>
+      <div id="gray"></div>
     </div>
     <div id="line2">
       <div id="orange">
-        <table cellpadding="0" cellspacing="0" class="moduletable">
-          <tr>
-            <td>
-              <table width="100%" border="0" cellpadding="0" cellspacing="1">
-                <tr>
-                  <td nowrap="nowrap">
-                    <a href="bio.html" class="ttfmainlevel">
-                      <img src="images/bio.png" border="0" name="Bio" alt="Bio" />
-                    </a>
-                    <a href="events.html" class="ttfmainlevel">
-                      <img src="images/events.png" border="0" name="Events" alt="Events" />
-                    </a>
-                    <a href="discography.html" class="ttfmainlevel">
-                      <img src="images/discography.png" border="0" name="Discography" alt="Discography" />
-                    </a>
-                    <a href="photos.html" class="ttfmainlevel" onclick="javascript: alert('Coming Soon'); return false;">
-                      <img src="images/photos.png" alt="Photos" />
-                    </a>
-                    <a href="#" class="ttfmainlevel" onclick="javascript: alert('Coming Soon'); return false;">
-                      <img src="images/listen.png" border="0" name="Listen" alt="Listen" />
-                    </a>
-                    <a href="links.html" class="ttfmainlevel">
-                      <img src="images/links.png" border="0" name="Links" alt="Links" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+        <ul class="menu list-inline">
+          <li><a href="bio.html">Bio</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="discography.html">Discography</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="listen.html">Listen</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
       </div>
     </div>
     <div id="line3">
-      <div id="pink">
-        <span id="pink_1">&nbsp;</span>
-        <span id="pink_2"></span>
-      </div>
+      <div id="pink"></div>
     </div>
     <div id="line4">
       <div id="wrapper1">
@@ -69,7 +44,7 @@
             </div>
             <div class="centercolumn">
               <div class="centerpadding">
-                <h3>Bio</h3>
+                <h2>Bio</h2>
                 <p>Peter Slavov is a New York-based Bulgarian double bassist,composer,session musician,arranger and educator. Since he started performing professionally in the mid-1990’s, Peter has performed at some of the most prestigious venues and festivals in more than 30 countries on 5 continents.</p>
                 <p>Born to the family of legendary Bulgarian drummer Peter Slavov Sr.,Peter(sometimes credited as Petar)has been playing bass since the age of twelve.</p>
                 <p>While studying classical music at the Pipkov Music School in Sofia,Peter discovered American jazz and soon became the busiest bassist on the scene in Bulgaria, playing with the country’s finest musicians and touring Europe extensively.</p>
@@ -97,5 +72,7 @@
       </div>
     </div>
   </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
