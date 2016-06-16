@@ -236,6 +236,10 @@ margin-right is set to the value of the overriding values for .rightcolumn's wid
   display: block;
 }
 
+.album > img {
+  border: 1px solid #888;
+}
+
 /* Events */
 .event {
   padding-bottom: 25px;
